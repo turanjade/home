@@ -26,7 +26,7 @@ if st.sidebar.button('Education'):
   st.write('4. 2010-2014, Bachelor of Engineering, Civil Engineering, Tongji University')
   st.write('   Supervisor: Chao Yang')
   
-if st.sidebar.button('Working experience', on_click=style_button_row, kwargs={'clicked_button_ix': 1, 'n_buttons': 4})):
+if st.sidebar.button('Working experience', on_click=style_button_row, kwargs={'clicked_button_ix': 1, 'n_buttons': 4}):
   st.subheader('Working experience')
   st.write('1. 2021-current, Associate Professor, School of Transportation, Southeast University')
   st.write('2. 2020, Postdoctoral fellow, Civil Engineering, University of Toronto')
