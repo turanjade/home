@@ -10,7 +10,7 @@ url_rg = "https://www.researchgate.net/profile/Ran-Tu-3"
 url_gs = 'https://scholar.google.com/citations?user=ueR4KsUAAAAJ&hl=en'
 #st.write("check out this [link](%s)" % url)
 
-
+st.title('Welcome! This is Ran Tu')
 
 st.sidebar.header('Dictionary')
 
