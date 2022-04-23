@@ -10,9 +10,13 @@ url_rg = "https://www.researchgate.net/profile/Ran-Tu-3"
 url_gs = 'https://scholar.google.com/citations?user=ueR4KsUAAAAJ&hl=en'
 #st.write("check out this [link](%s)" % url)
 
-st.title('Welcome! This is Ran Tu')
+
 
 st.sidebar.header('Dictionary')
+
+if st.sidebar.button('Return to home'):
+  st.title('Welcome! This is Ran Tu')
+  
 if st.sidebar.button('Education'):
   st.subheader('Education')
   st.write('1. 2016-2020, PhD, Civil Engineering, University of Toronto')
