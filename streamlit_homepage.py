@@ -47,7 +47,7 @@ if.sidebar.button('Teaching'):
   st.subheader('Teaching courses')
   st.write("Transportation Management")
 
-if.sidebar.button('Publications'):
+if st.sidebar.button('Publications'):
   st.subheader('Publications')
   st.write('1.	Tu, R., Xu, J., Wang, A., Zhang, M., Zhai, Z., Hatzopoulou, M., 2022. Real-world emissions and fuel consumption of gasoline and hybrid light duty vehicles under local and regulatory drive cycles. Sci. Total Environ. 805, 150407. https://doi.org/10.1016/j.scitotenv.2021.150407')
   st.write('2.	Tu, R., Xu, J., Wang, A., Zhai, Z., Hatzopoulou, M., 2021. Effects of ambient temperature and cold starts on excess NOx emissions in a gasoline direct injection vehicle. Sci. Total Environ. 760, 143402.')
