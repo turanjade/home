@@ -43,7 +43,7 @@ if st.sidebar.button('Past projects'):
   st.subheader('Past projects')
   st.write('1. Eco-Score: environmental evaluation of driving operations, NSERC of Canada, Participation, 2019-2020')
 
-if.sidebar.button('Teaching'):
+if st.sidebar.button('Teaching'):
   st.subheader('Teaching courses')
   st.write("Transportation Management")
 
