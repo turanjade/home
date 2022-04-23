@@ -15,7 +15,7 @@ st.title('Welcome! This is Ran Tu')
 st.sidebar.header('Dictionary')
 
 if st.sidebar.button('Return to home'):
-  st.title('Welcome! This is Ran Tu')
+  st.title(' ')
   
 if st.sidebar.button('Education'):
   st.subheader('Education')
