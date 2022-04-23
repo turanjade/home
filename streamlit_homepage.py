@@ -6,6 +6,8 @@ import streamlit as st
 import numpy as np
 
 st.title('Welcome! This is Ran Tu')
+
+st.sidebar.header('Dictionary')
 if st.sidebar.button('Education'):
   st.subheader('Education')
   st.write('2016-2020, PhD, Civil Engineering, University of Toronto')
