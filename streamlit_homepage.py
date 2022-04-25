@@ -5,6 +5,7 @@ import pandas as pd
 import streamlit as st
 import numpy as np
 
+st.beta_set_page_config(page_title = "Homepage - Ran Tu")
 
 url_rg = "https://www.researchgate.net/profile/Ran-Tu-3"
 url_gs = 'https://scholar.google.com/citations?user=ueR4KsUAAAAJ&hl=en'
