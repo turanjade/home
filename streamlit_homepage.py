@@ -17,8 +17,9 @@ st.title('Welcome! This is Ran Tu')
 #if st.sidebar.button('Return to home'):
 #  st.title(' ')
 
+st.sidebar.header('Dictionary')
 genre = st.sidebar.radio(
-     "Dictionary",
+     "Direct to:",
      ('Home', 'Education', 'Working experience', 'Projects', 'Teaching', 'Studnets', 'Publication'))
 
 if genre == 'Home':
@@ -36,6 +37,19 @@ if genre == 'Education':
   st.write('4. 2010-2014, Bachelor of Engineering, Civil Engineering, Tongji University')
   st.write(str('   '+ 'Supervisor: Chao Yang'))
 
+if genre == 'Working experience':
+  st.subheader('Working experience')
+  st.write('1. 2021-current, Associate Professor, School of Transportation, Southeast University')
+  st.write('2. 2020, Postdoctoral fellow, Civil Engineering, University of Toronto')
+
+if genre == 'Projects':
+  with st.expander("Current projects"):
+    st.write("1. Eco-driving Guidance Decision Modelling Based on Drivers' Dynamic Cognitive Behaviour, National Natural Science Foundation of China (Young Scholar), PI, 2022-2024")
+    st.write("2. Eco-driving Guidance Based on the Heterogeneity of Drivers’ Cognitive Workload, Natural Science Foundation of Jiangsu Province (Young Scholar), PI, 2021-2024")
+    st.write("3. Modify Drivers' behaviour to Adapt for Lower Emissions, National Key R&D Program of China, Co-PI, 2021-2024")
+    st.write("4. Dynamic Optimization of Electric Bus Services with Energy Consumption Uncertainties, FAW-Volkswagen China Environmental Protection Foundation Automotive Environmental Innovation Leading Program, PI, 2022-2023")          
+
+
 """
 if st.sidebar.button('Education'):
   st.subheader('Education')
@@ -50,10 +64,7 @@ if st.sidebar.button('Education'):
   st.write('4. 2010-2014, Bachelor of Engineering, Civil Engineering, Tongji University')
   st.write('   Supervisor: Chao Yang')
   
-if st.sidebar.button('Working experience'):
-  st.subheader('Working experience')
-  st.write('1. 2021-current, Associate Professor, School of Transportation, Southeast University')
-  st.write('2. 2020, Postdoctoral fellow, Civil Engineering, University of Toronto')
+
 
 if st.sidebar.button('Current projects'):
   st.subheader('Current projects')
