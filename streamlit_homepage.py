@@ -24,6 +24,8 @@ genre = st.sidebar.radio(
 
 if genre == 'Home':
   st.title(' ')
+  st.image("https://lh3.googleusercontent.com/AMDcegY1PgqjtgzAJHt9aXBGIe7qvqNN-f38i24DbeGgYvvyPZMkmpDKENGijc-Hk9h1VkC67YFowXGihJi3DPhRtWYrmWBxhE8dDlBvp-LrO5a72z9mnYfDuRHXYLbyGtiPW85VziqUmOSJZyA2kz3tfzlBVsqbM2oSy7s1mYVP5P5l7qOCxwC5kSVKKwbxXqzzPNlwd4KoA6m0r7xSW4aLN0uRBSpcHhuB7HbDx47uvQRvH8FOX69pxLUYnPNBYV3it7kCT9Xy7s7GWtnwUzHd1ymA1VqHI1j60bsudZgLQYoSr2zxo0BOSH0VB3Yj2nbI0P_q2P9SA_pUr1gAsYIifAqPFuqVUXg2m_RiS6Xh5EYi4y-veP1wPQSsNv7IPSd3RKVAVyD3dkrUHtgq3GLHiNYah8aw2PjUtBlGGDZjZoLpv8FVsUhGP92Jepeoua-F2ACIX_-d53irwAj5ZjUh0ZTDDhmSfeS35mNJdEPBhq89KZ-FHrvJh5beq_B11IY0A--8Pgy0SmGYR0aPkVFQrUDvsUQ4YbL9LTpp8pxUCFW5rLyAWGBpLSlKlfDD3vGGaVK22xwxOJZp6YvzhUHrprs-0vq3GpycsUicbZecxdSvChbPPcYzALJzTsxFqaiZJhD1PKClHNxztDOTKX6wbsGiXlp83iluzXFZ9BSg4FI1sIlCEj0fDqJ1RT2DNCXUSknxe3P2rUtsvpfhJCRZb7Xt7Vrk8J9EgumqZdy1Eo_zza09Rj8ORyfZfT8=w1481-h833-no?authuser=0")
+
 if genre == 'Education':
   st.subheader('Education')
   st.write('1. 2016-2020, PhD, Civil Engineering, University of Toronto')
@@ -85,4 +87,3 @@ if genre == 'Publication':
   st.write('11.	Wang, A., Tu, R., Xu, J., Zhai, Z., Hatzopoulou, M., 2022. A novel modal emission modelling approach and its application with on-road emission measurements. Appl. Energy 306, 117967.')
 
   
-st.image("https://lh3.googleusercontent.com/AMDcegY1PgqjtgzAJHt9aXBGIe7qvqNN-f38i24DbeGgYvvyPZMkmpDKENGijc-Hk9h1VkC67YFowXGihJi3DPhRtWYrmWBxhE8dDlBvp-LrO5a72z9mnYfDuRHXYLbyGtiPW85VziqUmOSJZyA2kz3tfzlBVsqbM2oSy7s1mYVP5P5l7qOCxwC5kSVKKwbxXqzzPNlwd4KoA6m0r7xSW4aLN0uRBSpcHhuB7HbDx47uvQRvH8FOX69pxLUYnPNBYV3it7kCT9Xy7s7GWtnwUzHd1ymA1VqHI1j60bsudZgLQYoSr2zxo0BOSH0VB3Yj2nbI0P_q2P9SA_pUr1gAsYIifAqPFuqVUXg2m_RiS6Xh5EYi4y-veP1wPQSsNv7IPSd3RKVAVyD3dkrUHtgq3GLHiNYah8aw2PjUtBlGGDZjZoLpv8FVsUhGP92Jepeoua-F2ACIX_-d53irwAj5ZjUh0ZTDDhmSfeS35mNJdEPBhq89KZ-FHrvJh5beq_B11IY0A--8Pgy0SmGYR0aPkVFQrUDvsUQ4YbL9LTpp8pxUCFW5rLyAWGBpLSlKlfDD3vGGaVK22xwxOJZp6YvzhUHrprs-0vq3GpycsUicbZecxdSvChbPPcYzALJzTsxFqaiZJhD1PKClHNxztDOTKX6wbsGiXlp83iluzXFZ9BSg4FI1sIlCEj0fDqJ1RT2DNCXUSknxe3P2rUtsvpfhJCRZb7Xt7Vrk8J9EgumqZdy1Eo_zza09Rj8ORyfZfT8=w1481-h833-no?authuser=0")
