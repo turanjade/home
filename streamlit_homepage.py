@@ -12,11 +12,31 @@ url_gs = 'https://scholar.google.com/citations?user=ueR4KsUAAAAJ&hl=en'
 
 st.title('Welcome! This is Ran Tu')
 
-st.sidebar.header('Dictionary')
-
-if st.sidebar.button('Return to home'):
-  st.title(' ')
+#st.sidebar.header('Dictionary')
   
+#if st.sidebar.button('Return to home'):
+#  st.title(' ')
+
+genre = st.sidebar.radio(
+     "Dictionary",
+     ('Home', 'Education', 'Working experience', 'Projects', 'Teaching', 'Studnets', 'Publication'))
+
+if genre == 'Home':
+  st.title(' ')
+if genre == 'Education':
+  st.subheader('Education')
+  st.write('1. 2016-2020, PhD, Civil Engineering, University of Toronto')
+  st.write(str('   '+ 'Supervisor: Marianne Hatzopoulou'))
+  st.write(' ')
+  st.write('2. 2014-2016, Master of Science, Civil Engineering, Virginia Tech')
+  st.write(str('   '+ 'Supervisor: Hesham Rakha'))
+  st.write(' ')
+  st.write('3. 2013-2014, Exchange, Civil Engineering, EPFL')
+  st.write(' ')
+  st.write('4. 2010-2014, Bachelor of Engineering, Civil Engineering, Tongji University')
+  st.write(str('   '+ 'Supervisor: Chao Yang'))
+
+"""
 if st.sidebar.button('Education'):
   st.subheader('Education')
   st.write('1. 2016-2020, PhD, Civil Engineering, University of Toronto')
