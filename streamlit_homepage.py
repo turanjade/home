@@ -53,7 +53,7 @@ if genre == 'Projects':
   with st.expander('Past projects'):
     st.write('1. Eco-Score: environmental evaluation of driving operations, NSERC of Canada, Participation, 2019-2020')
 
-if genre == 'Students':
+if genre == 'Studnets':
   st.subheader('Courses')
   st.write("2nd-year undergraduate in the major of transportation, Transportation Management")
   st.subheader('Student supervision')
