@@ -65,7 +65,7 @@ if genre == 'Studnets':
     st.write("1. (2022-2024) Qiuzi Chen")
   with st.expander("Undergraduate students"):
     st.write("1. (2021) Yifei Su")
-    st.markdown("**Congraduations to Yifei for the acceptance of her paper in the TRB 2022🎉🎉🎉!**")
+    st.caption("**Congraduations to Yifei for the acceptance of her paper in the TRB 2022🎉🎉🎉!**")
     st.write("2. (2022) Qiuzi Chen")
     st.write("3. (2022) Haoran Chen")
 
