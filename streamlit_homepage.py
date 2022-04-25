@@ -55,7 +55,7 @@ if genre == 'Teaching':
   st.subheader('Courses')
   st.write("2nd-year undergraduate in the major of transportation, Transportation Management")
     
-if genre == 'Students':
+if genre == 'Studnets':
   with st.expander("SRTP"):
     st.write("1. (2021-2022) Eco-Scoring for Ride-hailing Vehicles; Led by Yaofeng Yu")
     #st.caption("Check the latest updates @[link](%s)" % "https://share.streamlit.io/trjade1234/eco_score/main")
