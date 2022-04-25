@@ -85,4 +85,4 @@ if st.sidebar.button('Publications'):
   st.write('9.	Zhang, A., Li, T., Tu, R., Dong, C., Chen, H., Gao, J., Liu, Y., 2021. The Effect of Nonlinear Charging Function and Line Change Constraints on Electric Bus Scheduling. Promet - Traffic&Transportation 33, 527–538. https://doi.org/10.7307/ptt.v33i4.3730')
   st.write('10.	Zhai, Z., Tu, R., Xu, J., Wang, A., Hatzopoulou, M., 2020. Capturing the variability in instantaneous vehicle emissions based on field test data. Atmosphere (Basel). 11. https://doi.org/10.3390/ATMOS11070765')
   st.write('11.	Wang, A., Tu, R., Xu, J., Zhai, Z., Hatzopoulou, M., 2022. A novel modal emission modelling approach and its application with on-road emission measurements. Appl. Energy 306, 117967.')
-
+"""
