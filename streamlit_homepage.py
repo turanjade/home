@@ -56,11 +56,6 @@ if genre == 'Teaching':
   st.write("2nd-year undergraduate in the major of transportation, Transportation Management")
     
 if genre == 'Studnets':
-  with st.expander("SRTP"):
-    st.write("1. (2021-2022) Eco-Scoring for Ride-hailing Vehicles; Led by Yaofeng Yu")
-    st.caption("Check out the latest updates @[link](%s)" % "https://share.streamlit.io/trjade1234/eco_score/main")
-    st.write("2. (2021-2022) Carbon Benefit Design to Encourage Greener Travel Behaviour; Led by Ruoyu Chen")
-    st.write("3. (2021-2022) Low-Carbon MaaS (Mobility-as-a-Service) Design; Led by Yuchen Ling")
   with st.expander("Master students"):
     st.write("1. (2022-2024) Qiuzi Chen")
   with st.expander("Undergraduate students"):
@@ -68,6 +63,11 @@ if genre == 'Studnets':
     st.caption("**Congraduations to Yifei for the acceptance of her paper in the TRB 2022🎉🎉🎉!**")
     st.write("2. (2022) Qiuzi Chen")
     st.write("3. (2022) Haoran Chen")
+  with st.expander("SRTP"):
+    st.write("1. (2021-2022) Eco-Scoring for Ride-hailing Vehicles; Led by Yaofeng Yu")
+    st.caption("Check out the latest updates @[link](%s)" % "https://share.streamlit.io/trjade1234/eco_score/main")
+    st.write("2. (2021-2022) Carbon Benefit Design to Encourage Greener Travel Behaviour; Led by Ruoyu Chen")
+    st.write("3. (2021-2022) Low-Carbon MaaS (Mobility-as-a-Service) Design; Led by Yuchen Ling")
 
 if genre == 'Publication':
   st.subheader('Publication')
