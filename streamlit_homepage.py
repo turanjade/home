@@ -58,14 +58,14 @@ if genre == 'Teaching':
 if genre == 'Studnets':
   with st.expander("SRTP"):
     st.write("1. (2021-2022) Eco-Scoring for Ride-hailing Vehicles; Led by Yaofeng Yu")
-    st.caption("Check the latest updates @[link](%s)" % "https://share.streamlit.io/trjade1234/eco_score/main")
+    st.caption("Check out the latest updates @[link](%s)" % "https://share.streamlit.io/trjade1234/eco_score/main")
     st.write("2. (2021-2022) Carbon Benefit Design to Encourage Greener Travel Behaviour; Led by Ruoyu Chen")
     st.write("3. (2021-2022) Low-Carbon MaaS (Mobility-as-a-Service) Design; Led by Yuchen Ling")
   with st.expander("Master students"):
     st.write("1. (2022-2024) Qiuzi Chen")
   with st.expander("Undergraduate students"):
     st.write("1. (2021) Yifei Su")
-    #st.caption("Congraduations to Yifei for the acceptance of her paper in the TRB 2022🎉🎉🎉!")
+    st.markdown("**Congraduations to Yifei for the acceptance of her paper in the TRB 2022🎉🎉🎉!**")
     st.write("2. (2022) Qiuzi Chen")
     st.write("3. (2022) Haoran Chen")
 
