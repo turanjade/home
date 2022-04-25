@@ -60,7 +60,7 @@ if genre == 'Students':
 
 if genre == 'Publication':
   st.subheader('Publication')
-  st.success("More papers, check my ResearchGate @[ResearchGate] %s. or GoogleScholar @[GoogleScholar] %s." % (url_rg, url_gs))
+  st.success("More papers, check my ResearchGate @[%s] . or GoogleScholar @[%s] ." % (url_rg, url_gs))
   st.write('1.	Tu, R., Xu, J., Wang, A., Zhang, M., Zhai, Z., Hatzopoulou, M., 2022. Real-world emissions and fuel consumption of gasoline and hybrid light duty vehicles under local and regulatory drive cycles. Sci. Total Environ. 805, 150407. https://doi.org/10.1016/j.scitotenv.2021.150407')
   st.write('2.	Tu, R., Xu, J., Wang, A., Zhai, Z., Hatzopoulou, M., 2021. Effects of ambient temperature and cold starts on excess NOx emissions in a gasoline direct injection vehicle. Sci. Total Environ. 760, 143402.')
   st.write('3.	Tu, R., Li, T., Meng, C., Xie, Y., Xie, F., Yang, F., Chen, H., Li, Y., Gao, J., Liu, Y., 2021. Real-world Emissions of Construction Mobile Machines and Comparison to a Non-road Emission Model. Sci. Total Environ. 771, 145365. https://doi.org/10.1016/j.scitotenv.2021.145365')
