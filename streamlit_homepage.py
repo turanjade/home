@@ -85,4 +85,4 @@ if genre == 'Publication':
   st.write('11.	Wang, A., Tu, R., Xu, J., Zhai, Z., Hatzopoulou, M., 2022. A novel modal emission modelling approach and its application with on-road emission measurements. Appl. Energy 306, 117967.')
 
   
-st.image("https://drive.google.com/file/d/14D_mSM3jPZi1KxEMej4ELHnyaaXB2DGb/view?usp=sharing", width = 400)
+st.image("https://drive.google.com/file/d/14D_mSM3jPZi1KxEMej4ELHnyaaXB2DGb/view", width = 400)
