@@ -59,7 +59,7 @@ if genre == 'Students':
   st.subheader('SRTP')
   with st.expander("SRTP @SEU"):
     st.write("1. (2021-2022) Eco-Scoring for Ride-hailing Vehicles; Led by Yaofeng Yu")
-    st.caption("Check the latest updates @[link](%s)", https://share.streamlit.io/trjade1234/eco_score/main)
+    st.caption("Check the latest updates @[link](%s)", % https://share.streamlit.io/trjade1234/eco_score/main)
     st.write("2. (2021-2022) Carbon Benefit Design to Encourage Greener Travel Behaviour; Led by Ruoyu Chen")
     st.write("3. (2021-2022) Low-Carbon MaaS (Mobility-as-a-Service) Design; Led by Yuchen Ling")
   with st.expander("Master students @SEU"):
